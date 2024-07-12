@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+ 
+.textArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0e8e8;
+  width:150px ;
+  height: 40px;
+  color: #000;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Main{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 5px;
+}
+.AddSub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #000;
+  width: 50px;
+  user-select: none;
+}
